@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C54FE271A8950A1001CA26F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C54FE261A8950A1001CA26F /* AppDelegate.m */; };
+		5C54FE291A8950A1001CA26F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C54FE281A8950A1001CA26F /* main.m */; };
+		5C54FE2B1A8950A1001CA26F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C54FE2A1A8950A1001CA26F /* Images.xcassets */; };
+		5C54FE2E1A8950A1001CA26F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C54FE2C1A8950A1001CA26F /* MainMenu.xib */; };
+		5C54FE3A1A8950A1001CA26F /* OhmsLawCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C54FE391A8950A1001CA26F /* OhmsLawCalcTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C54FE341A8950A1001CA26F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C54FE181A8950A1001CA26F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C54FE1F1A8950A1001CA26F;
+			remoteInfo = OhmsLawCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C54FE201A8950A1001CA26F /* OhmsLawCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OhmsLawCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C54FE241A8950A1001CA26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C54FE251A8950A1001CA26F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C54FE261A8950A1001CA26F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C54FE281A8950A1001CA26F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C54FE2A1A8950A1001CA26F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5C54FE2D1A8950A1001CA26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5C54FE331A8950A1001CA26F /* OhmsLawCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhmsLawCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C54FE381A8950A1001CA26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C54FE391A8950A1001CA26F /* OhmsLawCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OhmsLawCalcTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C54FE1D1A8950A1001CA26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C54FE301A8950A1001CA26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C54FE171A8950A1001CA26F = {
+			isa = PBXGroup;
+			children = (
+				5C54FE221A8950A1001CA26F /* OhmsLawCalc */,
+				5C54FE361A8950A1001CA26F /* OhmsLawCalcTests */,
+				5C54FE211A8950A1001CA26F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C54FE211A8950A1001CA26F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C54FE201A8950A1001CA26F /* OhmsLawCalc.app */,
+				5C54FE331A8950A1001CA26F /* OhmsLawCalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C54FE221A8950A1001CA26F /* OhmsLawCalc */ = {
+			isa = PBXGroup;
+			children = (
+				5C54FE251A8950A1001CA26F /* AppDelegate.h */,
+				5C54FE261A8950A1001CA26F /* AppDelegate.m */,
+				5C54FE2A1A8950A1001CA26F /* Images.xcassets */,
+				5C54FE2C1A8950A1001CA26F /* MainMenu.xib */,
+				5C54FE231A8950A1001CA26F /* Supporting Files */,
+			);
+			path = OhmsLawCalc;
+			sourceTree = "<group>";
+		};
+		5C54FE231A8950A1001CA26F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C54FE241A8950A1001CA26F /* Info.plist */,
+				5C54FE281A8950A1001CA26F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C54FE361A8950A1001CA26F /* OhmsLawCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C54FE391A8950A1001CA26F /* OhmsLawCalcTests.m */,
+				5C54FE371A8950A1001CA26F /* Supporting Files */,
+			);
+			path = OhmsLawCalcTests;
+			sourceTree = "<group>";
+		};
+		5C54FE371A8950A1001CA26F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C54FE381A8950A1001CA26F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C54FE1F1A8950A1001CA26F /* OhmsLawCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C54FE3D1A8950A1001CA26F /* Build configuration list for PBXNativeTarget "OhmsLawCalc" */;
+			buildPhases = (
+				5C54FE1C1A8950A1001CA26F /* Sources */,
+				5C54FE1D1A8950A1001CA26F /* Frameworks */,
+				5C54FE1E1A8950A1001CA26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OhmsLawCalc;
+			productName = OhmsLawCalc;
+			productReference = 5C54FE201A8950A1001CA26F /* OhmsLawCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C54FE321A8950A1001CA26F /* OhmsLawCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C54FE401A8950A1001CA26F /* Build configuration list for PBXNativeTarget "OhmsLawCalcTests" */;
+			buildPhases = (
+				5C54FE2F1A8950A1001CA26F /* Sources */,
+				5C54FE301A8950A1001CA26F /* Frameworks */,
+				5C54FE311A8950A1001CA26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C54FE351A8950A1001CA26F /* PBXTargetDependency */,
+			);
+			name = OhmsLawCalcTests;
+			productName = OhmsLawCalcTests;
+			productReference = 5C54FE331A8950A1001CA26F /* OhmsLawCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C54FE181A8950A1001CA26F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Marc Kandel";
+				TargetAttributes = {
+					5C54FE1F1A8950A1001CA26F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5C54FE321A8950A1001CA26F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5C54FE1F1A8950A1001CA26F;
+					};
+				};
+			};
+			buildConfigurationList = 5C54FE1B1A8950A1001CA26F /* Build configuration list for PBXProject "OhmsLawCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C54FE171A8950A1001CA26F;
+			productRefGroup = 5C54FE211A8950A1001CA26F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C54FE1F1A8950A1001CA26F /* OhmsLawCalc */,
+				5C54FE321A8950A1001CA26F /* OhmsLawCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C54FE1E1A8950A1001CA26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C54FE2B1A8950A1001CA26F /* Images.xcassets in Resources */,
+				5C54FE2E1A8950A1001CA26F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C54FE311A8950A1001CA26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C54FE1C1A8950A1001CA26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C54FE291A8950A1001CA26F /* main.m in Sources */,
+				5C54FE271A8950A1001CA26F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C54FE2F1A8950A1001CA26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C54FE3A1A8950A1001CA26F /* OhmsLawCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C54FE351A8950A1001CA26F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C54FE1F1A8950A1001CA26F /* OhmsLawCalc */;
+			targetProxy = 5C54FE341A8950A1001CA26F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C54FE2C1A8950A1001CA26F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C54FE2D1A8950A1001CA26F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C54FE3B1A8950A1001CA26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5C54FE3C1A8950A1001CA26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C54FE3E1A8950A1001CA26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OhmsLawCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C54FE3F1A8950A1001CA26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OhmsLawCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C54FE411A8950A1001CA26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OhmsLawCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OhmsLawCalc.app/Contents/MacOS/OhmsLawCalc";
+			};
+			name = Debug;
+		};
+		5C54FE421A8950A1001CA26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OhmsLawCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OhmsLawCalc.app/Contents/MacOS/OhmsLawCalc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C54FE1B1A8950A1001CA26F /* Build configuration list for PBXProject "OhmsLawCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C54FE3B1A8950A1001CA26F /* Debug */,
+				5C54FE3C1A8950A1001CA26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C54FE3D1A8950A1001CA26F /* Build configuration list for PBXNativeTarget "OhmsLawCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C54FE3E1A8950A1001CA26F /* Debug */,
+				5C54FE3F1A8950A1001CA26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C54FE401A8950A1001CA26F /* Build configuration list for PBXNativeTarget "OhmsLawCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C54FE411A8950A1001CA26F /* Debug */,
+				5C54FE421A8950A1001CA26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C54FE181A8950A1001CA26F /* Project object */;
+}
