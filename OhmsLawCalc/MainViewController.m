@@ -32,10 +32,8 @@
     NSString *val = self.wattsVoltsSelector.titleOfSelectedItem;
     NSLog(@"Set to : '%@'", val);
     if ([val compare:@"Watts:" options:NSCaseInsensitiveSearch] == 0) {
-        NSLog(@"Compare true");
         [self.miscTitle setStringValue:@"Volts:"];
     } else {
-        NSLog(@"Compare false");
         [self.miscTitle setStringValue:@"Watts:"];
     }
 }
