@@ -12,6 +12,8 @@
 		5C54FE2B1A8950A1001CA26F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C54FE2A1A8950A1001CA26F /* Images.xcassets */; };
 		5C54FE2E1A8950A1001CA26F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C54FE2C1A8950A1001CA26F /* MainMenu.xib */; };
 		5C54FE3A1A8950A1001CA26F /* OhmsLawCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C54FE391A8950A1001CA26F /* OhmsLawCalcTests.m */; };
+		5C54FE461A8950D6001CA26F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C54FE441A8950D6001CA26F /* MainViewController.m */; };
+		5C54FE471A8950D6001CA26F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C54FE451A8950D6001CA26F /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		5C54FE331A8950A1001CA26F /* OhmsLawCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhmsLawCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C54FE381A8950A1001CA26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C54FE391A8950A1001CA26F /* OhmsLawCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OhmsLawCalcTests.m; sourceTree = "<group>"; };
+		5C54FE431A8950D6001CA26F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5C54FE441A8950D6001CA26F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5C54FE451A8950D6001CA26F /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 				5C54FE2A1A8950A1001CA26F /* Images.xcassets */,
 				5C54FE2C1A8950A1001CA26F /* MainMenu.xib */,
 				5C54FE231A8950A1001CA26F /* Supporting Files */,
+				5C54FE431A8950D6001CA26F /* MainViewController.h */,
+				5C54FE441A8950D6001CA26F /* MainViewController.m */,
+				5C54FE451A8950D6001CA26F /* MainViewController.xib */,
 			);
 			path = OhmsLawCalc;
 			sourceTree = "<group>";
@@ -192,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C54FE2B1A8950A1001CA26F /* Images.xcassets in Resources */,
+				5C54FE471A8950D6001CA26F /* MainViewController.xib in Resources */,
 				5C54FE2E1A8950A1001CA26F /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C54FE291A8950A1001CA26F /* main.m in Sources */,
+				5C54FE461A8950D6001CA26F /* MainViewController.m in Sources */,
 				5C54FE271A8950A1001CA26F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
